@@ -1,4 +1,5 @@
 version: 2
+
 sources:
   - name: raw
     description: Raw data loaded from NYC Open Data
@@ -9,7 +10,7 @@ sources:
         description: |
           NYC 311 service requests for Dept of Transportation.
           One row per service request.
-        - name: source_motor_collisions
+      - name: source_motor_collisions
         description: |
           NYC motor vehicle collisions.
           One row per collision.
